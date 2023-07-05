@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selector</title>
+  <style>
+    * {
+      border: 2px solid sandybrown;
+      padding: 10px;
+    }
+
+    div {
+      background-color: aqua;
+    }
+
+    p {
+      background-color: white;
+    }
+
+    #hello {
+      font-weight: bold;
+    }
+
+    .class1 {
+      color: royalblue;
+    }
+
+    [type="text"] {
+      background-color: salmon;
+    }
+
+    h2,
+    p,
+    button,
+    input {
+      border: 2px dotted red;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    Hello
+    <h2 id="hello" class="class1">Hello World</h2>
+    <p id="hello2">Hola Mundo</p>
+    <p class="class1">Hallo Welt</p>
+    <button class="btn-del">Button</button>
+    <input type="text" placeholder="name" />
+    <input type="password" placeholder="name" />
+  </div>
+</body>
+</html>

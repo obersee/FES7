@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    /* Descendant Combinator */
+    /* section p {
+      border: 3px solid skyblue;
+    }
+
+    .sect .text {
+      border: 3px solid skyblue;
+    } */
+
+    /* Child Combinator */
+    /* section > p {
+      background: gold;
+    } */
+
+    /* General Sibling Combinator */
+    /* section ~ p {
+      border: 3px solid seagreen;
+    } */
+
+    /* Adjacent Sibling Combinator */
+    /* section + p {
+      background: pink;
+    } */
+
+    section {
+      color: red;
+      border: 2px solid salmon;
+      width: 100px;
+      box-sizing: border-box;
+    }
+
+    button {
+      width: inherit;
+      border: inherit;
+      color: initial;
+    }
+  </style>
+</head>
+<body>
+  <p>One</p>
+  <p>Two</p>
+  <p>Three</p>
+  <section class="sect">
+    <div>
+      <p class="text">Four</p>
+    </div>
+    <p class="text">Five</p>
+    <p class="text">Six</p>
+    <button type="button">Button</button>
+  </section>
+  <p>Seven</p>
+  <p>Eight</p>
+  <p>Nine</p>
+</body>
+</html>
