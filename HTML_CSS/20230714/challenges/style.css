@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+img.fox {
+    display: block;
+    margin: 0 auto;
+    margin-top: 57px;
+}
+
+div.ground {
+    width: 300px;
+    height: 306px;
+    margin: 0 auto;
+    margin-bottom: 57px;
+    border-bottom: 10px solid #46260e;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #9c6035;
+}
+
+h1.fox {
+    margin: 10px 20px;
+    color: #ffffff;
+}
+
+.lorem {
+    margin: 0 20px;
+    color: #e8bc9c;
+}
