@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    width: 300px;
+    margin: 57px auto;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.ground {
+    height: 306px;
+    border-bottom: 10px solid #46260e;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #9c6035;
+}
+
+.fox {
+    margin: 10px 20px;
+    color: #ffffff;
+}
+
+.lorem {
+    margin: 0 20px; 
+    line-height: 1.4;
+    color: #e8bc9c;
+}
